@@ -622,7 +622,7 @@ grep_out_keyword() {
 diable_blocklist_out() {
 	s="A"
 	echo -e "正在连接 关键词网络文件地址"
-	key_word=$(wget --no-check-certificate -t3 -T5 -qO- "https://raw.githubusercontent.com/Aipblock/iptaMshell/main/blocklists.txt")
+	key_word=$(wget --no-check-certificate -t3 -T5 -qO- "https://raw.githubusercontent.com/Aipblock/saveblocklist/main/block.txt")
 	[[ -z ${key_word} ]] && echo -e "${Error} 网络文件内容为空或访问超时 !" && display_out_keyworld && exit 0
 	key_word_num=$(echo -e "${key_word}"|wc -l)
 	for((integer = 1; integer <= ${key_word_num}; integer++))
