@@ -16,4 +16,8 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/Aipblock/iPtato
 ![image](https://user-images.githubusercontent.com/113791222/191403196-757e7def-8dad-48e9-b4ad-7f70f8fe3624.png)
 ![image](https://user-images.githubusercontent.com/113791222/191403486-c770cca2-d947-4c79-ad28-4312ae39be9e.png)
 
+## Function
+![image](https://user-images.githubusercontent.com/113791222/191405756-4a7a98fe-6302-4299-b512-6052fa28cf19.png)
+
+
 
